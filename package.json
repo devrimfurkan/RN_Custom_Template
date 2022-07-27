@@ -1,8 +1,8 @@
 {
-  "name": "rntemplate",
+  "name": "rntemplate_logo",
   "version": "0.0.1",
   "description": "React Native Template",
-  "repository": "https://github.com/auto-coder/RNTemplate.git",
+  "repository": "gh repo clone devrimfurkan/rntemplate_logo",
   "author": "devrimfurkan",
   "license": "MIT"
 }
