@@ -1,7 +1,10 @@
-# React Native Custom Template
+# :space_invader: React Native Template TypeScript
+
+> Clean and minimalist React Native template for a quick start with TypeScript.
 
 
-Run Project Template:
+## :arrow_forward: Usage
+
 ```sh
-npx react-native init ProjectName --template https://github.com/auto-coder/RNTemplate.git
+npx react-native init MyApp --template rntemplate_logo
 ```
