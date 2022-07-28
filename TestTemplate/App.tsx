@@ -7,11 +7,14 @@ import {LogoButton} from '@logo-rn/logo-button';
 
 
 const App =() => (
+  
+
   <ApplicationProvider {...eva} theme={eva.light}>
     <LogoButton
-     title={"“Press Me”"}
-     onClick={()=>console.log("“Pressed”")} />
-  </ApplicationProvider>
+     title={"Press Me"}
+     onClick={()=>console.log("Pressed")} />
+  
+     </ApplicationProvider>
 );
 
 export default App;
