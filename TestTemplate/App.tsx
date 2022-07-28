@@ -2,11 +2,15 @@ import React from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, Layout, Text } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { LogoLabel } from '@logo-rn/logo-label';
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
+import {LogoButton} from '@logo-rn/logo-button';
+
 
 const App =() => (
   <ApplicationProvider {...eva} theme={eva.light}>
-  <LogoLabel >LogoLabel is HERE</LogoLabel>
+    <LogoButton
+     title={"“Press Me”"}
+     onClick={()=>console.log("“Pressed”")} />
   </ApplicationProvider>
 );
 
