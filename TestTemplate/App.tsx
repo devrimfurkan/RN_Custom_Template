@@ -1,10 +1,12 @@
 import React from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, Layout, Text } from '@ui-kitten/components';
+import { LogoLabel } from '@logo-rn/logo-label';
 
 const HomeScreen = () => (
-  <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+  <Layout >
     <Text category='h1'>HOME Page</Text>
+    <LogoLabel children=''>LogoLabel is HERE</LogoLabel>
   </Layout>
 );
 

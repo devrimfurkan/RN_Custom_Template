@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@eva-design/eva": "^2.1.1",
+    "@logo-rn/logo-label": "^0.1.0",
     "@ui-kitten/components": "^5.1.2",
     "react": "18.0.0",
     "react-native": "0.69.3",
