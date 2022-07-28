@@ -21,7 +21,7 @@ const closeAlert = async () => {
   return(
     
     <ApplicationProvider {...eva} theme={eva.light}>
-     
+     <LogoLabel>dsafsd</LogoLabel>
       <LogoButton
          title={"Press Me"}
          onClick={showAlert} />
