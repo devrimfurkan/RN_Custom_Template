@@ -1074,6 +1074,16 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@logo-rn/design-processor@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@logo-rn/design-processor/-/design-processor-0.0.2.tgz#ac6a2c5ebf74ac3da304c53cedff9ff6988ac7e5"
+  integrity sha512-vwKPwJqGnCO21TiTx6YtEga4bPVD+JLapC3ztXFAsZtxJmigZVcDbOga9/H7NeIrabZGK319DTa7uRaNfliCGg==
+
+"@logo-rn/design-schema@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@logo-rn/design-schema/-/design-schema-0.0.2.tgz#e3f302630948fa2e7835e4d7d0ab4df111879dd2"
+  integrity sha512-00xmCPTS4wVwsHGKPvDXuMHvSa3aKYBgImFGJQ9VSUZ0fXsrxUnGlhigF8EuhGcSEMECcdD47Gss7ff6mCkhFg==
+
 "@logo-rn/logo-label@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@logo-rn/logo-label/-/logo-label-0.1.0.tgz#c0876217b96d2e8f1b85fd521e1a14af39241659"
