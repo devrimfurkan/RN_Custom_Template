@@ -1374,14 +1374,6 @@
   "resolved" "https://registry.npmjs.org/@logo-rn/design-schema/-/design-schema-0.0.2.tgz"
   "version" "0.0.2"
 
-"@logo-rn/logo-fab-button@^0.1.0":
-  "integrity" "sha512-5hrb/IZfBwdH1lM7ejUjrw/3h/irl5DmrhJPkJHt4M7Hoh8+Jj0lvhfESDsF4CWtk9KyXRp4g58UnCgt8iY1zQ=="
-  "resolved" "https://registry.npmjs.org/@logo-rn/logo-fab-button/-/logo-fab-button-0.1.0.tgz"
-  "version" "0.1.0"
-  dependencies:
-    "@logo-rn/logo-icon" "^0.1.0"
-    "@logo-rn/shared-utils" "^0.1.0"
-
 "@logo-rn/logo-icon@^0.1.0":
   "integrity" "sha512-ER0D0nQpDwNT71s1jhgJSUkLj/Lssq7FTR7Fk7BwOy72COmag68awGgRAUx9PtxAZh8pfke3qbDFDRpr+MIYWg=="
   "resolved" "https://registry.npmjs.org/@logo-rn/logo-icon/-/logo-icon-0.1.0.tgz"
@@ -1389,6 +1381,22 @@
   dependencies:
     "@logo-rn/shared-utils" "^0.1.0"
     "react-native-vector-icons" "^9.2.0"
+
+"@logo-rn/logo-label@0.1.0":
+  "integrity" "sha512-T/d5G0hiL2m28PLoWYuXtNkDK8uDWEuodL6Fvv3syfRd3HNkK4hU971oEF4ef+0vLx6QlWo6NeJOfwjqJxgCYw=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-label/-/logo-label-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@logo-rn/shared-utils" "^0.1.0"
+
+"@logo-rn/logo-text-input@^0.1.0":
+  "integrity" "sha512-a0EDCRMJk5zh8XwmsNKRD+bATiIr6habO/ZlJi808xawDft3c4klwSo4auhFwFTeBlTq4ALTXTFGpsw0Cm0SPw=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-text-input/-/logo-text-input-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@logo-rn/logo-icon" "^0.1.0"
+    "@logo-rn/logo-label" "0.1.0"
+    "@logo-rn/shared-utils" "^0.1.0"
 
 "@logo-rn/shared-utils@^0.1.0":
   "integrity" "sha512-yy9sCTN6DpAwLu9miJxG3+FMI9Q8kA03nkl/Qo833U0SeRWhwYnfqYJ0U6dPYFQiN7gOVGk0NF5w/zp3ZvN1qA=="
