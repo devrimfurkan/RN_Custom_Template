@@ -1,44 +1,25 @@
 import React from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, Layout, Text } from '@logo-rn/shared-utils/utils/logo-ui/components';
-import { LogoLabel } from '@logo-rn/logo-label';
 import { StyleSheet } from 'react-native';
-import {LogoButton} from '@logo-rn/logo-button';
-import {LogoAlert} from '@logo-rn/logo-alert';
-import {LogoDivider} from '@logo-rn/logo-divider';
+import {LogoSwitch} from '@logo-rn/logo-switch';
 
 
 const App =() => {
 
-  const [visible, setVisible] = React.useState(false);
-  const showAlert = async () => {
-    setVisible(true)
-}
+  const [checked, setChecked] = React.useState(false);
 
-const closeAlert = async () => {
-    setVisible(false)
-}
   return(
     
     <ApplicationProvider {...eva} theme={eva.light}>
-     <LogoLabel>dsafsd</LogoLabel>
-      <LogoButton
-         title={"Press Me"}
-         onClick={showAlert} />
-
-        <LogoAlert
-        desc={"Description"}
-        visible={visible}
-        close={closeAlert}
-        title={"Title"}
-        rightButtonText={"close"}
-        leftButtonText={"close"}
-        rightButtonAction={closeAlert}
-        leftButtonAction={closeAlert}
-        /> 
-
-      <LogoDivider width="90%" style={styles.dividerLogo}/>
-
+       <LogoSwitch 
+       checked={checked} 
+       onChange={(value:any) => setChecked(value)} 
+     />
+      <LogoSwitch checked={true} key={"1"} label={"a"} onChange={() => { }} />
+      <LogoSwitch checked={true} key={"2"} disabled={true} label={"b"} onChange={() => { }} />
+      <LogoSwitch checked={false} key={"3"} label={"c"} onChange={() => { }} />
+      <LogoSwitch checked={false} key={"4"} disabled={true} label={"d"} onChange={() => { }} />
      </ApplicationProvider>
         )
         
