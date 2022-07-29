@@ -1374,19 +1374,11 @@
   "resolved" "https://registry.npmjs.org/@logo-rn/design-schema/-/design-schema-0.0.2.tgz"
   "version" "0.0.2"
 
-"@logo-rn/logo-divider@^0.1.0":
-  "integrity" "sha512-EkAy789WfDQGkJkzAGfEJo9aJaQgjiAhEmOQ1YHIAE04kqUgROgk7TN5tnljA9+ejktZBRWui8c3PKN86AHOsg=="
-  "resolved" "https://registry.npmjs.org/@logo-rn/logo-divider/-/logo-divider-0.1.0.tgz"
+"@logo-rn/logo-menu@^0.1.0":
+  "integrity" "sha512-3R+5Am8rxw3QpUG9pLP8AB8RgiZrcd2Uep8QEAI2S8gMc8EoIi4Emzt01usF1FcUU9y9qlingAcijgK6x2IfGQ=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-menu/-/logo-menu-0.1.0.tgz"
   "version" "0.1.0"
   dependencies:
-    "@logo-rn/shared-utils" "^0.1.0"
-
-"@logo-rn/logo-list-item@^0.1.0":
-  "integrity" "sha512-+XDyNM6MwARqCSMUFpTGUAHVnmEnGe0r3KiX5LcqsNpDhkV9CLeEmLx6NJ/lzykwN1PjEX5VqunAAZA47PzPzw=="
-  "resolved" "https://registry.npmjs.org/@logo-rn/logo-list-item/-/logo-list-item-0.1.0.tgz"
-  "version" "0.1.0"
-  dependencies:
-    "@logo-rn/logo-divider" "^0.1.0"
     "@logo-rn/shared-utils" "^0.1.0"
 
 "@logo-rn/shared-utils@^0.1.0":
