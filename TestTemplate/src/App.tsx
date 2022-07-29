@@ -1,23 +1,24 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { StyleSheet } from 'react-native';
-import { LogoDataTable } from '@logo-rn/logo-data-table';
+import { LogoDialog } from '@logo-rn/logo-dialog';
 
 const App = () => {
-  const LIST_ITEMS=[{
-    test: "This is Test item"
-  }]
-  const [list, setList] = useState(LIST_ITEMS)
+  const [visible, setVisible] = React.useState(true);
   return (
     <ApplicationProvider {...eva} theme={eva.light}>
-      <LogoDataTable 
-      list={list} 
-      setList={(list: any) => setList(list)} 
-      listColumnKey="title"
-      onClick={()=>{}}
+      <LogoDialog
 
-      />
+        button2Text='btn2'
+        button3Text='btn3'
+        onClick2={() => { console.log("working...") }}
+        onClick3={() => { console.log("working...") }}
+        visible={visible}
+        close={() => setVisible(false)}
+        title={"“Title”"}
+        buttonText={"“Button”"}
+        onClick={() => console.log("clicked")} />
     </ApplicationProvider>
   )
 }
