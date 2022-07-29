@@ -2,13 +2,19 @@ import React, { useState } from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { StyleSheet, Text } from 'react-native';
-import {LogoSpinner} from '@logo-rn/logo-spinner';
+import {LogoTooltip} from '@logo-rn/logo-tooltip';
 
 const App = () => {
-  const [value, setValue] = useState(100)
+  const [visible, setVisible] = useState(false)
   return (
     <ApplicationProvider {...eva} theme={eva.light}>
-       <LogoSpinner title="Loading"/>
+        <LogoTooltip
+       desc="Tooltip Description"
+       buttonText="Close"
+       anchor={()=><Text>This is Test text!</Text>}
+       visible={visible}
+       close={() => setVisible(false)}
+       onClick={(item: any) => setVisible(false)} />
     </ApplicationProvider>
   )
 }

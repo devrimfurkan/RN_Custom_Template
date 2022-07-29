@@ -13,7 +13,7 @@
     "@eva-design/eva": "^2.1.1",
     "@logo-rn/design-processor": "^0.0.2",
     "@logo-rn/design-schema": "^0.0.2",
-    "@logo-rn/logo-spinner": "^0.1.0",
+    "@logo-rn/logo-tooltip": "^0.1.0",
     "@ui-kitten/components": "^5.1.2",
     "lottie-ios": "3.4.0",
     "lottie-react-native": "^5.1.3",
