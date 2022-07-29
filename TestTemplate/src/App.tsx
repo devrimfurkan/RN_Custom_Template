@@ -2,34 +2,11 @@ import React, { useState } from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { StyleSheet } from 'react-native';
-import {LogoList} from '@logo-rn/logo-list';
-
+import {LogoListItem} from '@logo-rn/logo-list-item';
 const App = () => {
-  const LIST_ITEMS: { id: string, title: string, checked: boolean, icon?: string }[] = [
-    {
-     id: "1",
-     title: "“Subtitle”",
-     checked: false,
-     icon: "grid"
-    },
-    {
-     id: "2",
-     title: "“Subtitle”",
-     checked: false
-    },
-    {
-     id: "3",
-     title: "“Subtitle”,",
-     checked: false,
-     //icon: "person"
-    }
-    ]
-   
-    const [list, setList] = useState(LIST_ITEMS)
   return (
     <ApplicationProvider {...eva} theme={eva.light}>
-
-<LogoList list={list} setList={(list: any) => setList(list)}  />
+        <LogoListItem columnName='title' item={""} onClick={() => console.log("")} />
     </ApplicationProvider>
   )
 }
