@@ -1397,6 +1397,15 @@
   dependencies:
     "@logo-rn/shared-utils" "^0.1.0"
 
+"@logo-rn/logo-dropdown@^0.1.0":
+  "integrity" "sha512-ttN64vN9ZJ4yLTUsJBpjnxjAmTMKsFJqpocPWFhd72yyeUkdE5f2S/Y7RpYm+hO7pD2trIopQZnq0ngaU5TAoA=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-dropdown/-/logo-dropdown-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@logo-rn/logo-icon" "^0.1.0"
+    "@logo-rn/logo-label" "^0.1.0"
+    "@logo-rn/shared-utils" "^0.1.0"
+
 "@logo-rn/logo-icon@^0.1.0":
   "integrity" "sha512-ER0D0nQpDwNT71s1jhgJSUkLj/Lssq7FTR7Fk7BwOy72COmag68awGgRAUx9PtxAZh8pfke3qbDFDRpr+MIYWg=="
   "resolved" "https://registry.npmjs.org/@logo-rn/logo-icon/-/logo-icon-0.1.0.tgz"
