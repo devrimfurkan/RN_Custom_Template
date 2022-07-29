@@ -10,18 +10,17 @@ import DropdownComp from './logoComponets/dropdownComp';
 
 const App =() => {
 
-
   return(
     
     <ApplicationProvider {...eva} theme={eva.light}>
 
       <DropdownComp/>
 
-
-     </ApplicationProvider>
-        )
+    </ApplicationProvider>
         
-      }
+      )
+        
+}
 
 export default App;
 

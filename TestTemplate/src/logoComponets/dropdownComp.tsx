@@ -20,14 +20,13 @@ const dropdownComp =() => {
         },
   ]
   return(
-    
-    <LogoDropdown
-    label="Label"
-  placeholder="Placeholder"
-  optionList={SELECT_OPTIONS}
-/>
-        )
-        
+      <LogoDropdown
+        label="Label"
+        placeholder="Placeholder"
+        style={styles.dropdown}
+        optionList={SELECT_OPTIONS}
+        />
+        )   
       }
 
 export default dropdownComp;
@@ -35,10 +34,10 @@ export default dropdownComp;
 
 const styles = StyleSheet.create({
   
-  dividerLogo:{
-    margin:5,
-    height:5,
-    backgroundColor:'red',
+  dropdown:{
+    margin:20,
+    height:45,
+   
     
   }
 
