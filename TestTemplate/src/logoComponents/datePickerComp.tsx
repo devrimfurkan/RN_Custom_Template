@@ -3,27 +3,25 @@ import * as eva from '@eva-design/eva';
 import { ApplicationProvider, Layout, Text } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { LogoLabel } from '@logo-rn/logo-label';
 import { StyleSheet } from 'react-native';
-import {LogoButton} from '@logo-rn/logo-button';
-import {LogoAlert} from '@logo-rn/logo-alert';
-import {LogoDivider} from '@logo-rn/logo-divider';
-import DatePickerScreenComp from './logoComponents/datePickerComp';
+
+import {LogoDatePicker} from '@logo-rn/logo-date-picker';
 
 
-const App =() => {
+const DatePickerScreenComp =() => {
 
 
+    const [value, setValue] = React.useState(new Date());
   return(
     
-    <ApplicationProvider {...eva} theme={eva.light}>
-     
-     <DatePickerScreenComp/>
-
-     </ApplicationProvider>
+    <LogoDatePicker 
+         label='tarih'
+         date={value} 
+         setDate={(value: any) => setValue(value)} placeholder={"selam"} />
         )
         
       }
 
-export default App;
+export default DatePickerScreenComp;
 
 
 const styles = StyleSheet.create({
