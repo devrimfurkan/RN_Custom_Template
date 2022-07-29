@@ -1,19 +1,19 @@
 import React from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, } from '@logo-rn/shared-utils/utils/logo-ui/components';
-import {LogoAvatar} from '@logo-rn/logo-avatar';
 import { StyleSheet } from 'react-native';
-
+import {LogoCard} from '@logo-rn/logo-card';
 
 
 const App =() => {
   return(
-    
     <ApplicationProvider {...eva} theme={eva.light}>
-     <LogoAvatar size={56} />
+         <LogoCard imageSource={
+          require("../assets/images/logo.png") 
+        } 
+      />
      </ApplicationProvider>
         )
-        
       }
 
 export default App;
