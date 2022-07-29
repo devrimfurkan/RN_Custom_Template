@@ -1,43 +1,44 @@
 import React from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, Layout, Text } from '@logo-rn/shared-utils/utils/logo-ui/components';
-import { LogoLabel } from '@logo-rn/logo-label';
+
 import { StyleSheet } from 'react-native';
 import {LogoButton} from '@logo-rn/logo-button';
-import {LogoAlert} from '@logo-rn/logo-alert';
-import {LogoDivider} from '@logo-rn/logo-divider';
 
+import {LogoToast} from '@logo-rn/logo-toast';
+import Toast from 'react-native-toast-message'
 
 const App =() => {
 
-  const [visible, setVisible] = React.useState(false);
-  const showAlert = async () => {
-    setVisible(true)
+  const showWhiteToast = () => {
+    Toast.show({
+        text1: "a",
+        text2: "b",
+       topOffset:0
+    });
 }
 
-const closeAlert = async () => {
-    setVisible(false)
+const showPrimaryToast = () => {
+    Toast.show({
+        
+        text1: "c",
+        text2: "d",
+        topOffset: 0
+    });
 }
+
   return(
     
     <ApplicationProvider {...eva} theme={eva.light}>
-     <LogoLabel>dsafsd</LogoLabel>
+     
+     <LogoButton
+      title={"toast"}
+      onClick={showWhiteToast} />
       <LogoButton
-         title={"Press Me"}
-         onClick={showAlert} />
+      title={"toast2"}
+      onClick={showPrimaryToast} />
 
-        <LogoAlert
-        desc={"Description"}
-        visible={visible}
-        close={closeAlert}
-        title={"Title"}
-        rightButtonText={"close"}
-        leftButtonText={"close"}
-        rightButtonAction={closeAlert}
-        leftButtonAction={closeAlert}
-        /> 
-
-      <LogoDivider width="90%" style={styles.dividerLogo}/>
+     <LogoToast />
 
      </ApplicationProvider>
         )
