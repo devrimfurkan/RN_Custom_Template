@@ -1412,6 +1412,13 @@
   dependencies:
     "@logo-rn/shared-utils" "^0.1.0"
 
+"@logo-rn/logo-radio-button@^0.1.0":
+  "integrity" "sha512-Q3NDWDBIqPpoh1+lur37IJtlukpa7k0Nnk7BYvpzeLu9Bp6k0TXJS6sBY/Pe11NWhl+pQfZESDjPw++ZAzCsRw=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-radio-button/-/logo-radio-button-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@logo-rn/shared-utils" "^0.1.0"
+
 "@logo-rn/logo-spinner@^0.1.0":
   "integrity" "sha512-XGuAYgnSdOtlEHgxt5Ng5bHoTobSAwhFVGO9MaFwHAZ2YKP7GR5NklJBddgxtQWwVnkVsPlknjZ4xp9VQ+/Hww=="
   "resolved" "https://registry.npmjs.org/@logo-rn/logo-spinner/-/logo-spinner-0.1.0.tgz"
