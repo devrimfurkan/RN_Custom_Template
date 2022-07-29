@@ -2,16 +2,12 @@ import React from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { StyleSheet } from 'react-native';
-import {LogoCard} from '@logo-rn/logo-card';
-
+import {LogoChips} from '@logo-rn/logo-chips';
 
 const App =() => {
   return(
     <ApplicationProvider {...eva} theme={eva.light}>
-         <LogoCard imageSource={
-          require("../assets/images/logo.png") 
-        } 
-      />
+        <LogoChips status={"primary"} label={"Chips"} />
      </ApplicationProvider>
         )
       }
