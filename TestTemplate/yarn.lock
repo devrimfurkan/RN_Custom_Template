@@ -1374,6 +1374,13 @@
   "resolved" "https://registry.npmjs.org/@logo-rn/design-schema/-/design-schema-0.0.2.tgz"
   "version" "0.0.2"
 
+"@logo-rn/logo-check-box@^0.1.0":
+  "integrity" "sha512-kCm0BIUjP0QW1XBpJrPC7WHOoTWE75lwBGVVb8S5SqRPXAR8crRdUkIc1oEzbuUruBSPBn3RMTlcrKoBVhh2AA=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-check-box/-/logo-check-box-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@logo-rn/shared-utils" "^0.1.0"
+
 "@logo-rn/logo-icon@^0.1.0":
   "integrity" "sha512-ER0D0nQpDwNT71s1jhgJSUkLj/Lssq7FTR7Fk7BwOy72COmag68awGgRAUx9PtxAZh8pfke3qbDFDRpr+MIYWg=="
   "resolved" "https://registry.npmjs.org/@logo-rn/logo-icon/-/logo-icon-0.1.0.tgz"
@@ -1382,20 +1389,13 @@
     "@logo-rn/shared-utils" "^0.1.0"
     "react-native-vector-icons" "^9.2.0"
 
-"@logo-rn/logo-label@0.1.0":
-  "integrity" "sha512-T/d5G0hiL2m28PLoWYuXtNkDK8uDWEuodL6Fvv3syfRd3HNkK4hU971oEF4ef+0vLx6QlWo6NeJOfwjqJxgCYw=="
-  "resolved" "https://registry.npmjs.org/@logo-rn/logo-label/-/logo-label-0.1.0.tgz"
+"@logo-rn/logo-list@^0.1.0":
+  "integrity" "sha512-4/IQnToXQGXHkFdfGJcerNIReEInGs0kzmbe/d8U+fcM1x7zozsDm4+PUXft7J7knUpNOrET55UBICd4R5MKTw=="
+  "resolved" "https://registry.npmjs.org/@logo-rn/logo-list/-/logo-list-0.1.0.tgz"
   "version" "0.1.0"
   dependencies:
-    "@logo-rn/shared-utils" "^0.1.0"
-
-"@logo-rn/logo-text-input@^0.1.0":
-  "integrity" "sha512-a0EDCRMJk5zh8XwmsNKRD+bATiIr6habO/ZlJi808xawDft3c4klwSo4auhFwFTeBlTq4ALTXTFGpsw0Cm0SPw=="
-  "resolved" "https://registry.npmjs.org/@logo-rn/logo-text-input/-/logo-text-input-0.1.0.tgz"
-  "version" "0.1.0"
-  dependencies:
+    "@logo-rn/logo-check-box" "^0.1.0"
     "@logo-rn/logo-icon" "^0.1.0"
-    "@logo-rn/logo-label" "0.1.0"
     "@logo-rn/shared-utils" "^0.1.0"
 
 "@logo-rn/shared-utils@^0.1.0":
