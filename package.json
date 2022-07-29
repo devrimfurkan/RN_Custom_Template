@@ -4,5 +4,8 @@
   "description": "React Native Template",
   "repository": "gh repo clone devrimfurkan/rntemplate_logo",
   "author": "devrimfurkan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@logo-rn/logo-avatar": "^0.1.0"
+  }
 }
