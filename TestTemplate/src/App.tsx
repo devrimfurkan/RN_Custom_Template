@@ -2,29 +2,16 @@ import React, { useState } from 'react';
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, } from '@logo-rn/shared-utils/utils/logo-ui/components';
 import { StyleSheet, Text } from 'react-native';
-import {LogoSelect, LogoMultiSelect} from '@logo-rn/logo-select';
+import { LogoSlider, LogoMultiSlider } from '@logo-rn/logo-slider';
 
 const App = () => {
-  const SELECT_OPTIONS: { title: string }[] = [
-    {
-        title: "option1"
-    },
-     {
-        title: "option2"
-    },
-    {
-        title: "option3"
-    },
-]
-
-
+  const [value, setValue] = useState(100)
   return (
     <ApplicationProvider {...eva} theme={eva.light}>
-        <LogoSelect
-        label="Label"
-        placeholder="Placeholder"
-        optionList={SELECT_OPTIONS}
-  />
+      <LogoSlider
+        value={value}
+        setValue={(newValue: number) => setValue(newValue)}
+      />
     </ApplicationProvider>
   )
 }
